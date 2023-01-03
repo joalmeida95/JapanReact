@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    justify-content:flex-end;
+    text-align: center;
+    list-style: none;
+    gap:100px;
+    margin-right:200px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.itemnav {
+    color: black;
+    text-decoration: none;
+}
