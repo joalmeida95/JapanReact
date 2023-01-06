@@ -1,7 +1,10 @@
+import './Contact.css';
 export default function Contact () {
     return (
+        <>
+        <h1 className='contact-form'>Contactenos</h1>
         <div className="formulario">
-            <h1>Contactenos</h1>
+            
            
             <form>
                 <h2>Complete el formulario</h2>
@@ -20,11 +23,12 @@ export default function Contact () {
                 <h3>Telefono de contacto:</h3>
                 <input type="number" placeholder="Ingrese numero" />
                 <br/>
-                <button>Enviar</button>
+                <button className='boton-contact'>Enviar</button>
 
 
                 
             </form>
         </div>
+        </>
     )
 }

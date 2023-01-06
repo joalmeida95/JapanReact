@@ -1,0 +1,19 @@
+.galeria-paisajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+h3 {
+    background-color: rgba(207, 139, 127, 0.315);
+}
+.paisajes{
+    border: 2px solid black;
+    
+}
