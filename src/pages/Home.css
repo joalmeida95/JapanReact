@@ -1,0 +1,76 @@
+.cont-home{
+text-align: center;
+margin:auto;
+max-width:1000px;
+gap: 20px;
+float:left;
+margin-left: 30px;
+margin-top: 50px;
+}
+.cont-hover{
+    position: relative;
+    display: block;
+    color: rgb(5, 1, 1);
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #000000;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+.cont-hover::before{
+    background: #e96b446e;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+
+.cont-hover::before{
+    width: 0%;
+    height: 100%;
+  }
+
+.cont-hover:hover::before{
+    width: 100%;
+  }
+
+  /* BOTÓN */
+.btn {
+    background: #e96b446e; 
+    color: #000000; 
+    border: 2px solid #000000; 
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+.btn:hover {
+    color: #fff;
+  }
+.btn::after {
+    content: "";
+    background: #000000a9;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+.btn:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
