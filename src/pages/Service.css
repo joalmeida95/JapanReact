@@ -13,7 +13,11 @@
     opacity: .8;
     margin-bottom: 60px;
     border-radius: 50px;
-
+}
+.cabecera_service h2{
+    max-width: 800px;
+    margin: auto;
+    width: 80%;
 }
 
 .data_service{

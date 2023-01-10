@@ -4,7 +4,9 @@ import './Navegacion.css';
 export default function Navegacion () {
     return(
         <div className='barnav'>
+            
             <ul>
+                
                 <li>
                     <Link className='itemnav' to="/">Home</Link>
                 </li>
@@ -19,6 +21,7 @@ export default function Navegacion () {
                 </li>
                 
             </ul>
+            
         </div>
     )
 }
