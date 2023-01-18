@@ -17,3 +17,12 @@
     border: 2px solid black;
     
 }
+
+@media(max-width:768px ){
+    .paisajes{
+        width: 60%;
+    }
+    .img-paisaje{
+        width: 100%;
+    }
+    }
