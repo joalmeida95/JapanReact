@@ -1,0 +1,18 @@
+.error404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 100%;
+
+}
+
+@media(max-width:768px ){
+    .error404{
+        width:600px;
+        height: 500px;
+    }
+    
+}

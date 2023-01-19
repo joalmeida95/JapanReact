@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import './Home.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -20,7 +20,13 @@ export default function  Home () {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi sit molestias laborum, cumque exercitationem vitae est amet eius ratione aspernatur suscipit repellendus architecto at beatae repellat sunt officiis consequatur?</p>                     
             
             {/* <a href="./Gallery" className="btn">Explore</a> */}
-            <Link className='btn' to="/Service">Explore</Link>
+            {/* <Link className='btn' to="/Service">Explore</Link> */}
+            <button className='btn' onClick={()=> alert ('Welcome to TJapan. Service inaccessible momentarily.')}>
+            Explore
+          </button>
+            {/* <button onClick={()=> alert ('Holis')}>
+            Cliqueame
+          </button> */}
 
             <Swiper
         pagination={{

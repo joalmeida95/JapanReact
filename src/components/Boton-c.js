@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Clima from "./Clima";
+import './Boton-c.css';
 
 export default function BotonClima () {
 
@@ -8,7 +9,7 @@ export default function BotonClima () {
     return (
         <>
             <button onClick={() =>setMostrar(!mostrar)}>
-                Clima
+            Clima en Tokio, Japón
             </button>
             {mostrar &&
             <Clima />

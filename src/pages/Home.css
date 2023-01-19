@@ -45,7 +45,8 @@ margin-top: 50px;
 .btn {
     background: #e96b446e; 
     color: #000000; 
-    border: 2px solid #000000; 
+    border: 2px solid #000000;
+    font-weight: bold; 
     padding: 16px 20px;
     border-radius: 3px; 
     position: relative;
@@ -77,7 +78,6 @@ margin-top: 50px;
 
   .img-slide{
     border-radius:30px 30px 30px 30px;
-    /* border: 2px solid rgb(223, 8, 8); */
     margin-top: 5px;
   }
   
@@ -85,7 +85,6 @@ margin-top: 50px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    /* border: 2px solid black; */
     border: 2px solid black;
     width: 690px;
     border-radius:30px 30px 30px 30px;
