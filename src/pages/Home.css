@@ -1,11 +1,11 @@
 .cont-home{
-text-align: center;
-margin:auto;
-max-width:1000px;
-gap: 20px;
-float:left;
-margin-left: 30px;
-margin-top: 50px;
+  text-align: center;
+  margin:auto;
+  max-width:1000px;
+  gap: 20px;
+  float:left;
+  margin-left: 30px;
+  margin-top: 50px;
 }
 .cont-hover{
     position: relative;
@@ -42,6 +42,13 @@ margin-top: 50px;
   }
 
   /* BOTÓN */
+
+.boton-home {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
 .btn {
     background: #e96b446e; 
     color: #000000; 
@@ -53,6 +60,8 @@ margin-top: 50px;
     z-index: 1;
     overflow: hidden;
     display: inline-block;
+    text-decoration: none;
+    
   }
 .btn:hover {
     color: #fff;
@@ -79,6 +88,7 @@ margin-top: 50px;
   .img-slide{
     border-radius:30px 30px 30px 30px;
     margin-top: 5px;
+    width: 100%;
   }
   
   .mySwiper {
@@ -89,9 +99,15 @@ margin-top: 50px;
     width: 690px;
     border-radius:30px 30px 30px 30px;
     background-color: #e96b446e;
+    
   }
 
   @media(max-width:768px ){
+    .cont-home{
+      float: none;
+      margin-left: 0;
+    }
+    
     .cont-hover{
       background-color:#e96b446e ;
       max-width:fit-content;

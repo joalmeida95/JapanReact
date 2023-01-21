@@ -23,16 +23,12 @@ ul{
 
 @media(max-width:768px ){
 ul{
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    justify-items: stretch;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    width: 650;
     margin: auto;
-    width: 80%;
-    margin-top: 40px;
-    margin-left: auto;
-    gap: 50px;
-    align-items: stretch;
-    text-align: center;
+    margin-top: 50px;
 }
 .itemnav:hover{
     border-bottom: 2px solid black;

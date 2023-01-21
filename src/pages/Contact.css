@@ -25,3 +25,9 @@
 form{
     opacity: none;
 }
+
+@media(max-width:768px ){
+    .formulario{
+        width: 650px;
+    }
+}

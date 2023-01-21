@@ -7,6 +7,7 @@ import MensajeError from './pages/MensajeError';
 import Layout from './pages/Layout';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <Route path="service" element={<Service />} />
           <Route path="contact" element={<Contact />} />
           <Route path="gallery" element={<Gallery />} />
+          <Route path="login" element={<Login />} />
 
-          {/* Si la ruta no coincide con ninguna de las anteriores, mostra un 404 */}
           <Route path='*' element={<MensajeError />} />
         </Route>
       </Routes>

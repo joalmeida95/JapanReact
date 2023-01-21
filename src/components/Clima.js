@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import './Clima.css';
 
 export default function Clima () {    
     const [cargando, setCargando] = useState(true);
